@@ -1,13 +1,32 @@
 
-<div class="field">
-  <label class="field-label" for="name">Ваше имя</label>
-  <div class="input">
-    <div class="icon">person</div>
-    <input
-      id="name"
-      name="name"
-      type="text"
-      placeholder="Например, Алексей"
-    >
-  </div>
-</div>
+.field {
+  margin-bottom: 16px;
+}
+
+.field-label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #26262b;
+  border-radius: 12px;
+  padding: 0 14px;
+}
+
+.input .icon {
+  color: #9a9aa2;
+}
+
+.input input {
+  flex: 1;
+  background: #26262b;
+  border: none;
+  outline: none;
+  padding: 14px 0;
+  color: #f2f2f2;
+}
