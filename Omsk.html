@@ -1,15 +1,21 @@
-<div class="field">
-  <label class="field-label">Email *</label>
-  <div class="input">
-    <div class="icon">mail</div>
-    <input name="email" type="email" placeholder="omsk.afi.sha@example.ru">
-  </div>
-</div> 
 
-<div class="field">
-  <label class="field-label">Телефон (+7) *</label>
-  <div class="input">
-    <div class="icon">call</div>
-    <input name="phone" type="tel" placeholder="+7 (999) 000-00-00">
-  </div>
+<div class="strength">
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
+  <div class="bar"></div>
 </div>
+
+
+.strength {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.bar {
+  flex: 1;
+  height: 4px;
+  border-radius: 999px;
+  background: #2e2e34;
+}
