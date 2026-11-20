@@ -1,8 +1,20 @@
 
-<div class="field">
-  <label class="field-label">Район города</label>
-  <div class="input">
-    <div class="icon">location_city</div>
-    <input name="district" type="text" placeholder="Например, Центральный">
-  </div>
-</div>
+.checkbox {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  color: #9a9aa2;
+  font-size: 13px;
+}
+
+.checkbox input {
+  width: 20px;
+  height: 20px;
+}
+
+
+<label class="checkbox">
+  <input name="agree" type="checkbox">
+  <span>Я соглашаюсь с <a href="#" class="link">условиями</a></span>
+</label>
